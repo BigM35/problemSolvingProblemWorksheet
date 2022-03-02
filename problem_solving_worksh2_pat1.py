@@ -10,7 +10,7 @@
 #if not, repeat
 #how do i break out the loop?
 
-output = "0"
+#output = "0"
 
 # squared_digits = [int(num) ** 2 for num in str(user_input)]
 # for num in range(len(squared_digits)):
@@ -45,7 +45,7 @@ def happy_number_finder():
             if new_user_input == 1:
                 print(f"{user_input} is a happy number!")
                 break
-            elif new_user_input == user_input:
+            elif new_user_input == 4:
                 print(f"{user_input} is an unhappy number!")
                 break
         else:
